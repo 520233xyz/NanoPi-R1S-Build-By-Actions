@@ -101,8 +101,8 @@ jobs:
       #    find dl -size -1024c -exec rm -f {} \;
       
       - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
-      if: env.SSH_ACTIONS == 'true'
+        uses: P3TERX/debugger-action@master
+        if: env.SSH_ACTIONS == 'true'
           
       - name: Build OpenWrt
         run: |
