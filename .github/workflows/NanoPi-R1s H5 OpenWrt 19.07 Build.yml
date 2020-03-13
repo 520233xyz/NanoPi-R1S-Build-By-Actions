@@ -19,6 +19,9 @@ on:
   # release:
   #   types: [published]
 
+env:
+  SSH_ACTIONS: true
+
 jobs:
 
   build:
